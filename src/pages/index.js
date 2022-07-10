@@ -26,14 +26,14 @@ export default function Home() {
 
       <footer>
         <section>
-          <div>
-            {/* links to git linkedin and twitter go here */}
-          </div>
+          <h3 className="title">Other places to find me!</h3>
+
+          <div>{/* links to git linkedin and twitter go here */}</div>
+        </section>
+        <section>
           <div className="form-container">
             <form>
-              <h3 className="title">Other places to find me!</h3>
-              <p className="description">drop me a message broh!</p>
-              <fieldset className="form-container">
+              <h3 className="title">You can slide right here!</h3>
                 <div className="form-item">
                   <label>E-mail</label>
                   <input type="email" required />
@@ -46,8 +46,9 @@ export default function Home() {
                   <label>Message</label>
                   <textarea></textarea>
                 </div>
-                <button type="submit" className="submit-btn">Send!</button>
-              </fieldset>
+                <button type="submit" className="submit-btn">
+                  Send!
+                </button>
             </form>
           </div>
         </section>
