@@ -27,7 +27,7 @@ export default function Home() {
       <footer>
         <section>
           <div>
-            <Link href=""
+            {/* links to git linkedin and twitter go here */}
           </div>
           <div className="form-container">
             <form>
