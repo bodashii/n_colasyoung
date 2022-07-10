@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Header from "../components/Header";
+import About from "../components/About";
 
 // import Nav from './../components/Nav/Nav'
 // import About from './../components/About/About'
@@ -12,21 +13,22 @@ export default function Home() {
         <meta name="description" content="portfolio" />
         <link rel="icon" href="..public/favicon.ico" />
       </Head>
-  
-      <section>
-        <h1 className="text-3xl font-bold underline">My Portfolio</h1>
-        <h3>Contact</h3>
-        <p>drop me a message broh!</p>
-      </section>
+
       <Header />
       {/* <Nav>
         <Link href="/api/about">About</Link>
         </Nav> */}
 
-      <main></main>
+      <main>
+        <h1 className="title">Nicolas Young</h1>
+        <About />
+      </main>
 
       <footer>
-        <p>in progress</p>
+        <section>
+          <h3 className="title">Contact</h3>
+          <p className="description">drop me a message broh!</p>
+        </section>
       </footer>
     </div>
   );

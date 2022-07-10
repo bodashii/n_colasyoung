@@ -5,3 +5,76 @@
     font-family:Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
+
+header {
+    text-align: center;
+    padding: 5% 0;
+    margin-bottom: 10%;
+    align-items: center;
+    background-color: green
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+ul {
+    display: flex;
+    flex-direction: flex-end;
+    margin-right: 5px;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5px;
+}
+
+li > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.brand {
+    color: #fff;
+    display: flex;
+    flex-direction: flex-start;
+}
+
+.directory {
+    display: flex;
+    flex-direction: flex-end;
+    text-decoration: none;
+}
+
+.about-section {
+    background-color : rgba(0, 125, 0, 0.4);
+    padding: 2em 0;
+    margin-bottom: 1em;
+}
+
+.about-pic {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.profile-pic {
+    border-radius: 50%;
+}
+
+.title {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: .5em;
+}
+
+.description {
+    margin-top: 1rem;
+    text-align: center;
+}
+
