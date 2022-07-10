@@ -6,9 +6,17 @@ import profilePic from "../public/images/me.jpg";
 
 export default function about() {
   return (
-    <div>
-      <h2>Nicolas Young</h2>
-      <Image src={profilePic} alt="Nicolas Young" width="200" height="200" />
+    <div className="">
+      <h2 className="text-3xl font-bold underline">Nicolas Young</h2>
+      <div>
+        <Image
+          src={profilePic}
+          alt="Nicolas Young"
+          width="200"
+          height="200"
+          className="rounded-full"
+        />
+      </div>
 
       <p>This will be some cool stuff about me.</p>
       <Link href="/">back</Link>
