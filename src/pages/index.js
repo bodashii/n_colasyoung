@@ -20,7 +20,7 @@ export default function Home() {
         </Nav> */}
 
       <main>
-        <h1 className="title">Nicolas Young</h1>
+        <h1 className="title">Portfolio</h1>
         <About />
       </main>
 
@@ -28,6 +28,18 @@ export default function Home() {
         <section>
           <h3 className="title">Contact</h3>
           <p className="description">drop me a message broh!</p>
+          <div>
+            <form>
+              <fieldset>
+                <label>E-mail</label>
+                <input type="email" required/>
+                <label>Name</label>
+                <input type="text" required/>
+                <label>Your message</label>
+                <textarea></textarea>
+              </fieldset>
+            </form>
+          </div>
         </section>
       </footer>
     </div>
