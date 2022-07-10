@@ -26,17 +26,27 @@ export default function Home() {
 
       <footer>
         <section>
-          <h3 className="title">Contact</h3>
-          <p className="description">drop me a message broh!</p>
           <div>
+            <Link href=""
+          </div>
+          <div className="form-container">
             <form>
-              <fieldset>
-                <label>E-mail</label>
-                <input type="email" required/>
-                <label>Name</label>
-                <input type="text" required/>
-                <label>Your message</label>
-                <textarea></textarea>
+              <h3 className="title">Other places to find me!</h3>
+              <p className="description">drop me a message broh!</p>
+              <fieldset className="form-container">
+                <div className="form-item">
+                  <label>E-mail</label>
+                  <input type="email" required />
+                </div>
+                <div className="form-item">
+                  <label>Name</label>
+                  <input type="text" required />
+                </div>
+                <div className="form-item">
+                  <label>Message</label>
+                  <textarea></textarea>
+                </div>
+                <button type="submit" className="submit-btn">Send!</button>
               </fieldset>
             </form>
           </div>

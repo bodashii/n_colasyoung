@@ -51,6 +51,27 @@ section {
     background-color: papayawhip;
 }
 
+label {
+    color: darkgreen;
+    text-align: left;
+    margin-right: 5px;
+}
+
+input {
+    background-color: papayawhip;
+    border-style: none;
+    border-radius: 16px;
+    padding: 0.5em;
+    margin-left: 5px;
+}
+
+textarea {
+    background-color: papayawhip;
+    border-style: none;
+    border-radius: 16px;
+    height: 200px;
+}
+
 .brand {
     color: #fff;
     display: flex;
@@ -96,3 +117,29 @@ section {
     color: darkgreen;
 }
 
+.form-container {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgba(0, 125, 0, 0.2);
+    padding: 0.5rem 0.5rem;
+    border-radius: 5%;
+    margin-bottom: 5px;
+    box-shadow: 5px 5px 20px green;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-item {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem .75rem;
+}
+
+.submit-btn {
+    border-style: none;
+    background-color: darkgreen;
+    color: white;
+    padding: 0.25rem;
+    border-radius: 16px;
+}
