@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import profilePic from "../public/images/me.jpg";
+import profilePic from "../public/images/me.png";
 
 export default function about() {
   return (
