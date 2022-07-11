@@ -55,6 +55,7 @@ main {
 
 section {
     background-color: papayawhip;
+    padding: 1rem;
 }
 
 label {
@@ -162,7 +163,7 @@ button {
 section > ul {
     display:flex;
     justify-content: space-evenly;
-
+    padding: 0 1rem;
 }
 
 section > ul > li {
